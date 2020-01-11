@@ -3,9 +3,9 @@ country = input('請輸入所在國家: ')
 if country == '台灣':
     age = input('請輸入年齡: ')
     if int(age) >= 18 :
-        return '你可以考駕照'
+        print('你可以考駕照')
     else:
-        return '你還不能考駕照'
+        print('你還不能考駕照')
 elif country == '美國':
     age = input('請輸入年齡: ')
     if int(age) >= 16 :
